@@ -1,0 +1,145 @@
+
+
+
+body{
+	
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:100% 100%;
+	height:100vh;
+		text-align:center;
+}	
+
+
+.Head{
+	text-align:center;
+	font-size:90%;
+}
+.nav-area{
+	font-family:Serif;
+}
+.nav-area ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-wrap:wrap;
+}
+.nav-area ul li{
+	width: 20%;
+}
+
+.nav-area ul li> ul {
+	flex-direction: column;
+	display:none;
+}
+.nav-area ul li > ul li{
+	width:100%;
+}
+.nav-area ul li:hover > ul {
+	
+	display:flex;
+}
+.nav-area a{
+	text-transform:uppercase;
+	display:block;
+	background:#ff7700;
+	padding:15px;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+}.nav-area a:hover{
+	background:#e84393;
+	color:#fff;
+}
+.nav-area .drop-down li > a{
+	background:#000;
+	color:#fff;
+	
+}
+.nav-area .drop-down li > a:hover{
+	background:#e84393;
+	
+}
+.nav-area .drop-down  a:after{
+	background:#e84393;
+	
+	padding-left:15px;
+	
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+	 padding: 2rem;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h3 {
+    color: #eee;
+    font-weight: 100;
+}
+
+h5 {
+    color:#eee;
+    font-weight:300;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+
+
+
+
+li,td {
+	 text-align:center;
+}
+table {text-align: center;
+    margin: 0 auto;list-style: inside;
+}
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
+img {
+	width: 100%;
+}
